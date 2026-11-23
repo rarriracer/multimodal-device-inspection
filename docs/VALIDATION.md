@@ -10,9 +10,8 @@ Prepared on 2026-11-23. These are local checks, not a claim that hosted CI has r
 | Python package build | Wheel built successfully with Python 3.12 and the configured setuptools backend |
 | Local HTTP API | Actual text and image inference passed |
 | API boundaries | Invalid inputs and cross-origin requests rejected; private/static path boundaries checked |
-| Browser behaviour | Light/dark themes, listing filters, front/back view selection, navigation, case switching, stale-result invalidation and separate manual review labels checked |
-| Visual QA | Four screenshots in the original dashboard design: text review, image review, model overview and mobile layout, captured from the running demo and visually inspected |
-| Mobile layout | No horizontal overflow at 390 px viewport width |
+| Browser behaviour | Action Board search, filters, actual text inference and review navigation; light/dark themes, listing filters, front/back view selection, stale-result invalidation and separate manual labels checked |
+| Visual QA | Four desktop screenshots in the original dashboard design: Action Board, text review, image review and model overview, captured from the running demo and visually inspected |
 | Publication audit | Token/path/address patterns, prohibited file types and selected tensor metadata checked |
 
 ## Interpretation

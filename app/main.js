@@ -22,16 +22,17 @@ $('#themeToggle').addEventListener('click',()=>applyTheme(!document.documentElem
 try{applyTheme(localStorage.getItem('dashboardTheme')==='dark');}catch{applyTheme(false);}
 
 function setView(name){
-  if(!['review','image','models','about'].includes(name))name='review';
+  if(!['board','review','image','models','about'].includes(name))name='review';
   activeView=name;
-  for(const view of ['review','image','models','about'])$(`#${view}-view`).hidden=view!==name;
+  for(const view of ['board','review','image','models','about'])$(`#${view}-view`).hidden=view!==name;
   document.querySelectorAll('nav [data-view]').forEach(button=>{
     button.classList.toggle('active',button.dataset.view===name);
     button.setAttribute('aria-current',button.dataset.view===name?'page':'false');
   });
-  const headings={review:'Labeling · Textmodell',image:'Bildmodell trainieren · Beispielansicht',models:'Modellübersicht',about:'Projektüberblick'};
+  const headings={board:'Dashboard · Übersicht',review:'Labeling · Textmodell',image:'Bildmodell trainieren · Beispielansicht',models:'Modellübersicht',about:'Projektüberblick'};
   $('#detail-eyebrow').textContent=headings[name];
-  $('#case-title').textContent=name==='models'?'Text- und Bildmodelle':name==='about'?'Multimodale Geräteprüfung':current?titles[current.id][0]:'Listing laden …';
+  $('#case-title').textContent=name==='board'?'Action Board':name==='models'?'Text- und Bildmodelle':name==='about'?'Multimodale Geräteprüfung':current?titles[current.id][0]:'Listing laden …';
+  document.querySelector('.main-header > .actions').hidden=['board','models','about'].includes(name);
   history.replaceState(null,'',name==='review'?'/':`/?view=${name}`);
 }
 document.querySelectorAll('nav [data-view]').forEach(button=>button.addEventListener('click',()=>setView(button.dataset.view)));
@@ -148,6 +149,7 @@ async function start(){
     $('#manual-labels').innerHTML=Object.entries(labels).map(([field,label])=>`<label>${label}<select data-manual-field="${field}" aria-label="Eigene Prüfung: ${label}"><option value="">Ungeprüft</option><option value="yes">Ja</option><option value="no">Nein</option><option value="unknown">Unbekannt</option></select></label>`).join('');
     $('#manual-labels').addEventListener('change',()=>invalidateReview(false));
     const response=await fetch('/api/examples');cases=await response.json();
+    document.dispatchEvent(new Event('public-cases-ready'));
     $('#case-select').innerHTML=cases.map((item,i)=>`<option value="${item.id}">Demo ${i+1} · ${titles[item.id][1]}</option>`).join('');
     activeView=new URLSearchParams(location.search).get('view')||'review';showCase(cases[0].id);
   }catch(error){$('#text-results').textContent='Bitte den lokalen Python-Demoserver starten.';}

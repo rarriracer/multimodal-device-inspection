@@ -50,4 +50,4 @@ Demo starten und in einem separaten Chrome-Profil Headless-Debugging auf Port 92
 node scripts/capture_screenshots.mjs
 ```
 
-Das Skript verwendet ausschließlich den lokalen Chrome-Debugging-Endpunkt und die lokale Demo. Es erstellt vier PNG-Dateien im bestehenden Dashboard-Design: Textprüfung, Bildprüfung, Modellübersicht und mobile Ansicht. Es prüft außerdem Hell-/Dunkelmodus, Ansichtsauswahl, Filter, Navigation, Fallwechsel, die Sperre veralteter Ergebnisse und die mobile Breite. Es ist kein Bestandteil der Python-Laufzeit.
+Das Skript verwendet ausschließlich den lokalen Chrome-Debugging-Endpunkt und die lokale Demo. Es erstellt vier Desktop-PNG-Dateien im bestehenden Dashboard-Design: Action Board, Textprüfung, Bildprüfung und Modellübersicht. Es prüft außerdem Board-Suche und Filter, Hell-/Dunkelmodus, Ansichtsauswahl, Navigation, Fallwechsel und die Sperre veralteter Ergebnisse. Es ist kein Bestandteil der Python-Laufzeit.

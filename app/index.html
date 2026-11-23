@@ -6,8 +6,10 @@
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="/app/dashboard.css">
   <link rel="stylesheet" href="/app/phone-map.css">
+  <link rel="stylesheet" href="/app/board.css">
   <link rel="stylesheet" href="/app/style.css">
   <script src="/app/main.js" defer></script>
+  <script src="/app/board.js" defer></script>
 </head>
 <body>
 <div class="app">
@@ -15,6 +17,7 @@
     <div class="sidebar-top">
       <div class="brand-line"><div class="brand"><h1>Geräte Dashboard</h1><p>Dein Arbeitsbereich · Portfolio-Demo</p></div><span class="pill info">iPhone</span></div>
       <nav class="section-switch" aria-label="Arbeitsbereiche">
+        <button type="button" data-view="board">Action Board</button>
         <button type="button" data-view="review" class="active">Labeling</button>
         <button type="button" data-view="image">Bildmodell</button>
         <button type="button" data-view="models">Modelle</button>
@@ -29,6 +32,15 @@
   <main class="main-shell labeling-shell">
     <header class="main-header"><div><p id="detail-eyebrow" class="eyebrow">Labeling · Textmodell</p><div class="title-row"><h2 id="case-title" class="main-title">Listing laden …</h2></div><div class="meta-line"><span id="case-device" class="pill"></span><span class="pill info">Beispieldaten</span><span class="pill ok">Lokale Inferenz</span></div></div><div class="actions"><button id="export" class="btn">Review exportieren</button><button id="review" class="btn primary">Prüfung speichern</button></div></header>
     <div class="main-content" id="mainContent">
+      <section id="board-view" class="view" hidden>
+        <div class="public-board-top">
+          <section class="panel collective-summary"><div class="panel-heading"><h2>Action Board · Übersicht</h2><span class="muted">Öffentliche Beispieldaten</span></div><div class="table-wrap"><table class="collective-stat-table"><thead><tr><th>Aktueller Bestand</th><th>iPhone</th><th>Android</th><th>iPad</th><th>Watch</th><th>Konsole</th><th>Gesamt</th></tr></thead><tbody id="board-summary"></tbody></table></div><p class="collective-footnote">Alle Geräte, Preise und Vergleichswerte sind erfunden. Keine Anbieteranbindung oder Auswahlregel.</p></section>
+          <div class="collective-controls"><section class="panel"><div class="panel-heading"><h2>Datenbestand</h2></div><div class="panel-body"><div class="board-control-line"><span class="pill info">6 erfundene Listings</span><button id="board-reset" class="btn">Beispiele laden</button></div><small class="muted">Lokaler Beispieldatensatz · kein Marktplatzabruf</small></div></section><section class="panel"><div class="panel-heading"><h2>Modelle / Prüfung</h2></div><div class="panel-body"><div class="board-control-line"><span class="pill ok" id="board-model-status">Textmodell bereit</span><button id="board-analyse" class="btn primary">Textmodell ausführen</button></div><small class="muted">Textauswertung für alle Beispielangebote. Bildprüfung pro Gerät öffnen.</small></div></section></div>
+        </div>
+        <div class="collective-tabs" role="tablist" aria-label="Action-Board-Bereiche"><button type="button" data-board-filter="all" role="tab" aria-selected="true">Alle Beispiele <span>6</span></button><button type="button" data-board-filter="review" role="tab" aria-selected="false">Prüfbedarf <span>3</span></button><button type="button" data-board-filter="missing" role="tab" aria-selected="false">Angaben offen <span>3</span></button></div>
+        <section class="panel collective-listings"><div class="panel-heading"><h2>Listings und Prüfstatus</h2><div class="collective-table-tools"><input id="board-search" type="search" class="search" placeholder="Titel, Modell oder Demo-ID" aria-label="Angebote im Action Board durchsuchen"><select id="board-sort" aria-label="Sortierung"><option value="id">Demo-Reihenfolge</option><option value="name">Modellname</option></select></div></div><div class="table-wrap"><table class="board-listings-table"><thead><tr><th>Gerät</th><th>OVP</th><th>Kabel</th><th>Akku</th><th>Display-<br>Schäden</th><th>Kosten inkl.<br>Versand</th><th>Beispielankauf<br><span class="muted">Fiktiver Wert</span></th><th>Differenz</th><th>Textprüfung</th><th><span>Modelle / Prüfung</span><div class="board-model-headings"><span>Text</span><span>Merkmale</span><span>Zustand</span></div></th><th>Aktionen</th></tr></thead><tbody id="board-rows"></tbody></table></div><div class="collective-pagination"><span id="board-count">6 Angebote · Seite 1 / 1</span><span class="muted">Nur Beispieldaten</span></div></section>
+        <p class="board-disclosure" id="board-feedback" role="status">Textfelder werden mit dem öffentlichen Modell ausgewertet. Zubehör-, Akku- und Preisangaben sind ausdrücklich erfundene UI-Beispiele. Bildmodelle werden in dieser Übersicht nicht als ausgeführt dargestellt.</p>
+      </section>
       <section id="review-view" class="view">
         <div class="workspace text-workspace">
           <section class="panel text-description-panel"><h2>Beschreibung</h2><div class="panel-body"><div class="description-source muted">Erfundenes Angebot · Angaben aus dem Beschreibungstext</div><div id="highlighted-description" class="description"></div><div class="evidence-legend"><span><i class="evidence-color condition"></i>Zustand</span><span><i class="evidence-color accessory"></i>Zubehör</span><span><i class="evidence-color technical"></i>Technische Angaben</span></div><div class="text-analysis-note muted">Markierungen stammen aus Textregeln. Modellvorschläge werden separat angezeigt.</div><details class="text-editor" open><summary>Beschreibung bearbeiten</summary><label class="search-label" for="description">Titel / Beschreibung · fiktives Beispiel</label><textarea id="description" rows="5" maxlength="20000" spellcheck="false"></textarea><div class="editor-actions"><span class="muted">Änderungen bleiben lokal.</span><button id="analyse" class="btn secondary">Textmodell ausführen</button></div></details><section class="review-note"><strong id="case-tag"></strong><p id="case-note"></p></section><details class="text-evidence-tools"><summary>Textmarkierungen anzeigen</summary><div id="evidence"></div></details></div></section>

@@ -4,6 +4,10 @@
 
 An applied machine-learning portfolio project that turns device descriptions and photos into reviewable suggestions. It combines a small text classifier, a trained device-view model and an inspection interface that keeps predictions separate from confirmed facts.
 
+![Action Board in the original dashboard design, with fictional listings, sample amounts and actual text-model status](docs/screenshots/03-action-board.png)
+
+*Action Board with six fictional listings. Text statuses come from the public classifier. Amounts, battery values and review flags are authored UI examples; they reveal no provider data or selection thresholds. Image models are shown as not run. Search, filters and links to the review workspace work in the demo.*
+
 ![Text review in the original dashboard's dark theme, with highlighted source passages and model suggestions](docs/screenshots/01-review-workspace.png)
 
 *Screenshot of the running public demo using the existing dashboard design. Text suggestions are computed live from fictional descriptions; coloured passages come from separate phrase rules. The interface retains the original German labels, typography, sidebar and light/dark themes.*
@@ -20,7 +24,7 @@ This repository is a focused public edition of a larger private application. The
 |---|---|
 | Text classification | Character TF-IDF and three linear heads: stated screen damage, cable inclusion and account lock |
 | Real image inference | Fine-tuned ResNet18 with three view outputs: display, back and camera |
-| Review interface | Six fictional cases, editable text, local photo upload, source passages and review export |
+| Review interface | Action Board, six fictional cases, editable text, local photo upload, source passages and review export |
 | Vision pipeline | Device localisation adapter, padded crops, coordinate projection and per-photo findings |
 | Training | Reproducible synthetic text baseline; image-training entry point for your own reviewed data |
 | Data integrity | Listing/duplicate grouping and masked loss for unknown image labels |
@@ -73,7 +77,7 @@ An absent detection does not establish an absent object or an undamaged device. 
 - **Modelling:** character features, independent classification heads, transfer learning and partial-label supervision.
 - **Data handling:** annotation semantics, listing-level splits and duplicate grouping.
 - **Inference:** local execution, explicit source types, crop geometry and model-independent orchestration.
-- **Product integration:** editable inputs, asynchronous results, invalidation of stale suggestions and a responsive review interface.
+- **Product integration:** Action Board search and filters, editable inputs, asynchronous results, invalidation of stale suggestions and a dashboard review interface.
 - **Evaluation:** separate training and evaluation entry points, per-class reports and visible limits.
 
 The public UI reuses presentation rules from the original dashboard and its front/back image-labeling maps. Its content and backend are reduced to the public inspection scope. ResNet18 and optional YOLO detectors are existing architectures; the contribution is their adaptation, data handling and integration into an inspectable workflow. The wider private application also includes OCR integration; OCR is not bundled here.

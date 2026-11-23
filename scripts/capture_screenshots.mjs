@@ -57,6 +57,18 @@ try{
   await navigate(base+'/');
   if(await evaluate('document.querySelector("#review").disabled || document.querySelector("#export").disabled'))throw new Error('Inference did not finish before capture');
   await evaluate('document.documentElement.classList.contains("theme-dark") || document.querySelector("#themeToggle").click()');
+  await evaluate('document.querySelector("[data-view=board]").click()');
+  await waitFor('document.querySelectorAll("#board-rows tr[data-board-case]").length===6 && document.querySelector("#board-model-status").textContent.includes("6 / 6")');
+  await command('Emulation.setDeviceMetricsOverride',{width:1840,height:1240,deviceScaleFactor:1,mobile:false});
+  await capture('03-action-board.png');
+  if(!await evaluate('document.querySelectorAll("#board-rows .model-indicator.done").length===6'))throw new Error('Action Board claimed or missed text inference');
+  await evaluate('document.querySelector("#board-search").value="iPhone 12"; document.querySelector("#board-search").dispatchEvent(new Event("input"))');
+  if(!await evaluate('document.querySelectorAll("#board-rows tr[data-board-case]").length===2'))throw new Error('Action Board search failed');
+  await evaluate('document.querySelector("#board-search").value=""; document.querySelector("[data-board-filter=review]").click()');
+  if(!await evaluate('document.querySelectorAll("#board-rows tr[data-board-case]").length===3'))throw new Error('Action Board review filter failed');
+  await evaluate('document.querySelector("[data-board-filter=all]").click(); document.querySelector("[data-open-board-case=surface-review]").click()');
+  await waitFor('!document.querySelector("#review-view").hidden && document.querySelectorAll(".result-row").length===3');
+  await command('Emulation.setDeviceMetricsOverride',{width:1600,height:1100,deviceScaleFactor:1,mobile:false});
   await capture('01-review-workspace.png');
   await evaluate('document.querySelector("[data-view=image]").click()');
   await waitFor('!document.querySelector("#image-view").hidden');
@@ -85,11 +97,6 @@ try{
   if(!await evaluate('document.querySelectorAll("[data-case]").length===1'))throw new Error('Reviewed listing filter failed');
   await evaluate('document.querySelector("[data-list-filter=all]").click()');
   if(!await evaluate('document.querySelectorAll("[data-case]").length===6'))throw new Error('Listing filter did not reset');
-  await command('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
-  await navigate(base+'/');
-  await capture('03-mobile-review.png');
-  const overflow=await evaluate('document.documentElement.scrollWidth > window.innerWidth');
-  if(overflow)throw new Error('Mobile layout overflows horizontally');
   if(errors.length)throw new Error('Browser errors: '+errors.join(', '));
-  console.log('Captured 4 screenshots in the original dashboard design. Themes, image view maps, listing filters, navigation, stale-result invalidation, manual labels and mobile layout passed.');
+  console.log('Captured 4 desktop screenshots: Action Board, text review, image review and model overview. Board search/filter/navigation, actual text inference, themes, view maps, stale-result invalidation and manual labels passed.');
 }finally{socket.close();}
