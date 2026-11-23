@@ -10,7 +10,7 @@ The private application connects data ingestion, device-attribute normalisation,
 
 The modelling work includes character-based text classification, weighted use of reviewed and weak labels, object/region detection, view classification and separate handling of visual attributes versus condition. The broader workflow supports batch processing and manual follow-up.
 
-This public edition extracts a compact inspection layer. It is a curated adaptation, not the complete production repository. Its interface and examples were created specifically for public presentation.
+This public edition extracts a compact inspection layer. It is a curated adaptation, not the complete production repository. Its interface reuses the original dashboard's presentation rules and front/back image-labeling maps, with reduced content and fictional public examples.
 
 ## Decisions that matter
 

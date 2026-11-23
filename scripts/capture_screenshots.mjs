@@ -44,6 +44,7 @@ async function navigate(url){
   await evaluate('document.fonts.ready.then(()=>true)');
 }
 async function capture(name){
+  await evaluate('Promise.all(document.getAnimations().map(animation=>animation.finished.catch(()=>{}))).then(()=>true)');
   const metrics=await command('Page.getLayoutMetrics');
   const size=metrics.cssContentSize;
   const result=await command('Page.captureScreenshot',{format:'png',captureBeyondViewport:true,
@@ -52,29 +53,43 @@ async function capture(name){
 }
 try{
   await command('Page.enable');await command('Runtime.enable');
-  await command('Emulation.setDeviceMetricsOverride',{width:1440,height:1100,deviceScaleFactor:1,mobile:false});
+  await command('Emulation.setDeviceMetricsOverride',{width:1600,height:1100,deviceScaleFactor:1,mobile:false});
   await navigate(base+'/');
+  if(await evaluate('document.querySelector("#review").disabled || document.querySelector("#export").disabled'))throw new Error('Inference did not finish before capture');
+  await evaluate('document.documentElement.classList.contains("theme-dark") || document.querySelector("#themeToggle").click()');
   await capture('01-review-workspace.png');
+  await evaluate('document.querySelector("[data-view=image]").click()');
+  await waitFor('!document.querySelector("#image-view").hidden');
+  await capture('04-image-workspace.png');
+  if(!await evaluate('document.querySelectorAll(".phone-shell").length===2'))throw new Error('Original front/back review maps missing');
+  await evaluate('document.querySelector("[data-region-view=back]").click()');
+  if(!await evaluate('document.querySelector("[data-region-view=back]").getAttribute("aria-pressed")==="true"'))throw new Error('View review toggle failed');
   await evaluate('document.querySelector("[data-view=models]").click()');
   await waitFor('!document.querySelector("#models-view").hidden');
+  await evaluate('document.querySelector("#themeToggle").click()');
+  if(await evaluate('document.documentElement.classList.contains("theme-dark")'))throw new Error('Light theme toggle failed');
   await capture('02-model-lab.png');
   await evaluate('document.querySelector("[data-view=review]").click(); document.querySelector("#case-select").value="restricted-device"; document.querySelector("#case-select").dispatchEvent(new Event("change"))');
-  await waitFor('document.querySelectorAll(".result-row").length===3 && document.querySelector("#case-tag").textContent==="Text warning"');
+  await waitFor('document.querySelectorAll(".result-row").length===3 && document.querySelector("#case-tag").textContent==="Kontosperre genannt"');
   const text=await evaluate('document.querySelector("#text-results").textContent');
-  if(!text.includes('Account lock stated'))throw new Error('Missing text output');
+  if(!text.includes('Kontosperre genannt'))throw new Error('Missing text output');
   await evaluate('document.querySelector("#description").value=""; document.querySelector("#description").dispatchEvent(new Event("input"))');
   if(!await evaluate('document.querySelector("#review").disabled'))throw new Error('Stale predictions could be confirmed');
   await evaluate('document.querySelector("#case-select").value="surface-review"; document.querySelector("#case-select").dispatchEvent(new Event("change"))');
   await waitFor('document.querySelectorAll(".result-row").length===3');
   await evaluate('document.querySelector("[data-manual-field=screen_damage]").value="yes"; document.querySelector("[data-manual-field=screen_damage]").dispatchEvent(new Event("change",{bubbles:true}))');
   await evaluate('document.querySelector("#review").click()');
-  if(!await evaluate('document.querySelector("#review-status").textContent.includes("unverified")'))throw new Error('Review semantics not visible');
-  if(!await evaluate('document.querySelector("#review-status").textContent.includes("1 manual labels")'))throw new Error('Manual decision was not recorded');
+  if(!await evaluate('document.querySelector("#review-status").textContent.includes("unbestätigt")'))throw new Error('Review semantics not visible');
+  if(!await evaluate('document.querySelector("#review-status").textContent.includes("1 eigene Labels")'))throw new Error('Manual decision was not recorded');
+  await evaluate('document.querySelector("[data-list-filter=reviewed]").click()');
+  if(!await evaluate('document.querySelectorAll("[data-case]").length===1'))throw new Error('Reviewed listing filter failed');
+  await evaluate('document.querySelector("[data-list-filter=all]").click()');
+  if(!await evaluate('document.querySelectorAll("[data-case]").length===6'))throw new Error('Listing filter did not reset');
   await command('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
   await navigate(base+'/');
   await capture('03-mobile-review.png');
   const overflow=await evaluate('document.documentElement.scrollWidth > window.innerWidth');
   if(overflow)throw new Error('Mobile layout overflows horizontally');
   if(errors.length)throw new Error('Browser errors: '+errors.join(', '));
-  console.log('Captured 3 screenshots. Navigation, case switching, stale-result invalidation, review semantics and mobile layout passed.');
+  console.log('Captured 4 screenshots in the original dashboard design. Themes, image view maps, listing filters, navigation, stale-result invalidation, manual labels and mobile layout passed.');
 }finally{socket.close();}

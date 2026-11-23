@@ -4,9 +4,9 @@
 
 An applied machine-learning portfolio project that turns device descriptions and photos into reviewable suggestions. It combines a small text classifier, a trained device-view model and an inspection interface that keeps predictions separate from confirmed facts.
 
-![Review workspace with live text classification and a clearly labelled illustrated visual example](docs/screenshots/01-review-workspace.png)
+![Text review in the original dashboard's dark theme, with highlighted source passages and model suggestions](docs/screenshots/01-review-workspace.png)
 
-*Screenshot of the running public demo. The text suggestions are computed live. The device artwork and its visual overlays are authored illustrations, not detector predictions.*
+*Screenshot of the running public demo using the existing dashboard design. Text suggestions are computed live from fictional descriptions; coloured passages come from separate phrase rules. The interface retains the original German labels, typography, sidebar and light/dark themes.*
 
 ## Why this project exists
 
@@ -76,9 +76,13 @@ An absent detection does not establish an absent object or an undamaged device. 
 - **Product integration:** editable inputs, asynchronous results, invalidation of stale suggestions and a responsive review interface.
 - **Evaluation:** separate training and evaluation entry points, per-class reports and visible limits.
 
-The public UI is a simplified presentation built for this repository. ResNet18 and optional YOLO detectors are existing architectures; the contribution is their adaptation, data handling and integration into an inspectable workflow. The wider private application also includes OCR integration; OCR is not bundled here.
+The public UI reuses presentation rules from the original dashboard and its front/back image-labeling maps. Its content and backend are reduced to the public inspection scope. ResNet18 and optional YOLO detectors are existing architectures; the contribution is their adaptation, data handling and integration into an inspectable workflow. The wider private application also includes OCR integration; OCR is not bundled here.
 
-![Model lab explaining the two runnable models and their boundaries](docs/screenshots/02-model-lab.png)
+![Image-labeling workspace in the original dashboard design, including front/back review maps](docs/screenshots/04-image-workspace.png)
+
+*The image scene and region boxes are explicitly labelled illustrations. Uploading a local photo runs the actual device-view model; these example boxes are not detector predictions.*
+
+![Model overview in the original dashboard's light theme](docs/screenshots/02-model-lab.png)
 
 ## Models and evaluation
 
