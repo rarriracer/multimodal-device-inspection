@@ -1,0 +1,4322 @@
+[
+  {
+    "id": "synthetic-0000",
+    "split": "test",
+    "text": "Das Display hat deutliche Kratzer. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0001",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0002",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0003",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0004",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0005",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0006",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0007",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0008",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0009",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0010",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0011",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0012",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0013",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0014",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0015",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0016",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0017",
+    "split": "test",
+    "text": "Das Display hat deutliche Kratzer. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0018",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0019",
+    "split": "test",
+    "text": "Das Display hat deutliche Kratzer. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0020",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0021",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0022",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0023",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0024",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0025",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0026",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0027",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0028",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0029",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0030",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0031",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0032",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0033",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0034",
+    "split": "test",
+    "text": "Das Display hat deutliche Kratzer. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0035",
+    "split": "train",
+    "text": "Das Display hat deutliche Kratzer. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0036",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0037",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0038",
+    "split": "test",
+    "text": "Das Display ist gesprungen. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0039",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0040",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0041",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0042",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0043",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0044",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0045",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0046",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0047",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0048",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0049",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0050",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0051",
+    "split": "test",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0052",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0053",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0054",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0055",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0056",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0057",
+    "split": "test",
+    "text": "Das Display ist gesprungen. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0058",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0059",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0060",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0061",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0062",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0063",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0064",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0065",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0066",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0067",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0068",
+    "split": "test",
+    "text": "Das Display ist gesprungen. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0069",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0070",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0071",
+    "split": "train",
+    "text": "Das Display ist gesprungen. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0072",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0073",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0074",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0075",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0076",
+    "split": "test",
+    "text": "Ein Riss zieht sich über das Display. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0077",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0078",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0079",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0080",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0081",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0082",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0083",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0084",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0085",
+    "split": "test",
+    "text": "Ein Riss zieht sich über das Display. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0086",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0087",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0088",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0089",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0090",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0091",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0092",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0093",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0094",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0095",
+    "split": "test",
+    "text": "Ein Riss zieht sich über das Display. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0096",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0097",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0098",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0099",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0100",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0101",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0102",
+    "split": "test",
+    "text": "Ein Riss zieht sich über das Display. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0103",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0104",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0105",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0106",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0107",
+    "split": "train",
+    "text": "Ein Riss zieht sich über das Display. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0108",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0109",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0110",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0111",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0112",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0113",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0114",
+    "split": "test",
+    "text": "Auf dem Display sind Kratzer sichtbar. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0115",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0116",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0117",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0118",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0119",
+    "split": "test",
+    "text": "Auf dem Display sind Kratzer sichtbar. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0120",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0121",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0122",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0123",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0124",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0125",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0126",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0127",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0128",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0129",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0130",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0131",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0132",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0133",
+    "split": "test",
+    "text": "Auf dem Display sind Kratzer sichtbar. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0134",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0135",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0136",
+    "split": "test",
+    "text": "Auf dem Display sind Kratzer sichtbar. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0137",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0138",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0139",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0140",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0141",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0142",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0143",
+    "split": "train",
+    "text": "Auf dem Display sind Kratzer sichtbar. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "yes",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0144",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0145",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0146",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0147",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0148",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0149",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0150",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0151",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0152",
+    "split": "test",
+    "text": "Das Display ist ohne Kratzer. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0153",
+    "split": "test",
+    "text": "Das Display ist ohne Kratzer. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0154",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0155",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0156",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0157",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0158",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0159",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0160",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0161",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0162",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0163",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0164",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0165",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0166",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0167",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0168",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0169",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0170",
+    "split": "test",
+    "text": "Das Display ist ohne Kratzer. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0171",
+    "split": "test",
+    "text": "Das Display ist ohne Kratzer. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0172",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0173",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0174",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0175",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0176",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0177",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0178",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0179",
+    "split": "train",
+    "text": "Das Display ist ohne Kratzer. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0180",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0181",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0182",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0183",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0184",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0185",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0186",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0187",
+    "split": "test",
+    "text": "Keine Risse oder Kratzer am Display. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0188",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0189",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0190",
+    "split": "test",
+    "text": "Keine Risse oder Kratzer am Display. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0191",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0192",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0193",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0194",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0195",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0196",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0197",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0198",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0199",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0200",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0201",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0202",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0203",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0204",
+    "split": "test",
+    "text": "Keine Risse oder Kratzer am Display. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0205",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0206",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0207",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0208",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0209",
+    "split": "test",
+    "text": "Keine Risse oder Kratzer am Display. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0210",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0211",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0212",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0213",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0214",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0215",
+    "split": "train",
+    "text": "Keine Risse oder Kratzer am Display. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0216",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0217",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0218",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0219",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0220",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0221",
+    "split": "test",
+    "text": "Display ohne Beschädigungen. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0222",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0223",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0224",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0225",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0226",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0227",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0228",
+    "split": "test",
+    "text": "Display ohne Beschädigungen. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0229",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0230",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0231",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0232",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0233",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0234",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0235",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0236",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0237",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0238",
+    "split": "test",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0239",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0240",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0241",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0242",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0243",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0244",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0245",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0246",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0247",
+    "split": "test",
+    "text": "Display ohne Beschädigungen. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0248",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0249",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0250",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0251",
+    "split": "train",
+    "text": "Display ohne Beschädigungen. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0252",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0253",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0254",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0255",
+    "split": "test",
+    "text": "Das Display ist unbeschädigt. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0256",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0257",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0258",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0259",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0260",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0261",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0262",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0263",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0264",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0265",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0266",
+    "split": "test",
+    "text": "Das Display ist unbeschädigt. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0267",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0268",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0269",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0270",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0271",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0272",
+    "split": "test",
+    "text": "Das Display ist unbeschädigt. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0273",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0274",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0275",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0276",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0277",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0278",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0279",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0280",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0281",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0282",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0283",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0284",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0285",
+    "split": "test",
+    "text": "Das Display ist unbeschädigt. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0286",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0287",
+    "split": "train",
+    "text": "Das Display ist unbeschädigt. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "no",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0288",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0289",
+    "split": "test",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0290",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0291",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0292",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0293",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0294",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0295",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0296",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0297",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0298",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0299",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0300",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0301",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0302",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0303",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0304",
+    "split": "test",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0305",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0306",
+    "split": "test",
+    "text": "Zum Displayzustand gibt es keine Angabe. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0307",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0308",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0309",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0310",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0311",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0312",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0313",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0314",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0315",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0316",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0317",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0318",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0319",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0320",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0321",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0322",
+    "split": "train",
+    "text": "Zum Displayzustand gibt es keine Angabe. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0323",
+    "split": "test",
+    "text": "Zum Displayzustand gibt es keine Angabe. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0324",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0325",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0326",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0327",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0328",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0329",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0330",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0331",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0332",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0333",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0334",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0335",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0336",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0337",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0338",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0339",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0340",
+    "split": "test",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0341",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0342",
+    "split": "test",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0343",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0344",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0345",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0346",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0347",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0348",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0349",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0350",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0351",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0352",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0353",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0354",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0355",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0356",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0357",
+    "split": "test",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0358",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0359",
+    "split": "train",
+    "text": "Der Zustand des Displays ist nicht beschrieben. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0360",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0361",
+    "split": "test",
+    "text": "Speicher und Farbe stehen im Titel. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0362",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0363",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0364",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0365",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0366",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0367",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0368",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0369",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0370",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0371",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0372",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0373",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0374",
+    "split": "test",
+    "text": "Speicher und Farbe stehen im Titel. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0375",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0376",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0377",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0378",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0379",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0380",
+    "split": "test",
+    "text": "Speicher und Farbe stehen im Titel. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0381",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0382",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0383",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0384",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0385",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0386",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0387",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0388",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0389",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0390",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0391",
+    "split": "test",
+    "text": "Speicher und Farbe stehen im Titel. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0392",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0393",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0394",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0395",
+    "split": "train",
+    "text": "Speicher und Farbe stehen im Titel. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0396",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0397",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0398",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ladekabel dabei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0399",
+    "split": "test",
+    "text": "Weitere Informationen auf Anfrage. Ladekabel dabei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0400",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ladekabel dabei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0401",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ladekabel dabei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0402",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Kabel liegt bei. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0403",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Kabel liegt bei. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0404",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Kabel liegt bei. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0405",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Kabel liegt bei. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0406",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Kabel liegt bei. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0407",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "yes",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0408",
+    "split": "test",
+    "text": "Weitere Informationen auf Anfrage. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0409",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ohne Ladekabel. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0410",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ohne Ladekabel. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0411",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ohne Ladekabel. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0412",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ohne Ladekabel. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0413",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Ohne Ladekabel. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0414",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Das Kabel fehlt. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0415",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Das Kabel fehlt. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0416",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0417",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Das Kabel fehlt. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0418",
+    "split": "test",
+    "text": "Weitere Informationen auf Anfrage. Das Kabel fehlt. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0419",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Das Kabel fehlt. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "no",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0420",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Zum Kabel keine Angabe. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0421",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Zum Kabel keine Angabe. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0422",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Zum Kabel keine Angabe. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0423",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Zum Kabel keine Angabe. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0424",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Zum Kabel keine Angabe. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0425",
+    "split": "test",
+    "text": "Weitere Informationen auf Anfrage. Zum Kabel keine Angabe. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0426",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. iCloud wurde abgemeldet.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0427",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. Apple-ID wurde entfernt.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "no"
+    }
+  },
+  {
+    "id": "synthetic-0428",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. iCloud-Sperre aktiv.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0429",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. Apple-ID ist noch verknüpft.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "yes"
+    }
+  },
+  {
+    "id": "synthetic-0430",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  },
+  {
+    "id": "synthetic-0431",
+    "split": "train",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. Zur Aktivierung keine Information.",
+    "labels": {
+      "screen_damage": "unknown",
+      "cable_included": "unknown",
+      "account_lock": "unknown"
+    }
+  }
+]

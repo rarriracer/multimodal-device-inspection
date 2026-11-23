@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520">
+      <defs><linearGradient id="metal"><stop stop-color="#b4bec0"/><stop offset=".15" stop-color="#727e82"/><stop offset=".65" stop-color="#b7c0bf"/><stop offset="1" stop-color="#6a777c"/></linearGradient><linearGradient id="screen" x2=".8" y2="1"><stop stop-color="#35494b"/><stop offset=".5" stop-color="#1b2d32"/><stop offset="1" stop-color="#101b22"/></linearGradient><filter id="blur" x="-30%" y="-30%" width="180%" height="180%"><feGaussianBlur stdDeviation="13"/></filter></defs>
+      <rect width="560" height="520" fill="#e8eeea"/><path d="M0 392 560 120v400H0z" fill="#e1e9e3"/>
+      <g opacity=".22" stroke="#becbc2"><path d="M0 130h560M0 260h560M0 390h560M140 0v520M280 0v520M420 0v520"/></g>
+      <g transform="translate(0 0) scale(1)">
+          <rect x="155" y="39" width="214" height="443" rx="41" fill="#152325" opacity=".13" filter="url(#blur)"/>
+          <rect x="147" y="28" width="214" height="443" rx="41" fill="url(#metal)" stroke="#758184" stroke-width="1.4"/>
+          <rect x="152" y="33" width="204" height="433" rx="37" fill="#111719"/>
+          <rect x="160" y="42" width="188" height="415" rx="29" fill="url(#screen)"/>
+          <path d="M177 55h150L177 423z" fill="#fff" opacity=".035"/>
+          <rect x="216" y="51" width="76" height="21" rx="11" fill="#0b1113"/>
+          <circle cx="280" cy="61" r="3" fill="#20363f"/>
+          <rect x="145" y="112" width="3" height="29" rx="1" fill="#778285"/>
+          <rect x="145" y="151" width="3" height="43" rx="1" fill="#778285"/>
+          <rect x="360" y="141" width="3" height="55" rx="1" fill="#778285"/>
+          <rect x="219" y="444" width="70" height="4" rx="2" fill="#65777a"/></g><g fill="none" stroke="#b6c4bd" stroke-width="7" stroke-linecap="round"><path d="M445 222c83-28 71 113 18 91-51-20-19-71 10-44 36 34-10 71-33 61"/><path d="m445 222-8-15m3 123-12 13"/></g><rect x="430" y="187" width="15" height="24" rx="4" fill="#f8faf5" stroke="#b6c4bd"/><rect x="419" y="339" width="16" height="25" rx="4" fill="#f8faf5" stroke="#b6c4bd"/>
+      <text x="24" y="496" font-family="monospace" font-size="10" fill="#718378" letter-spacing="1.7">ORIGINAL DEMO ILLUSTRATION / NO MARKETPLACE PHOTO</text>
+    </svg>

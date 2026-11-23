@@ -1,0 +1,180 @@
+[
+  {
+    "id": "surface-review",
+    "title": "A closer look at the display",
+    "tag": "Possible conflict",
+    "device": "Phone · 128 GB · Graphite",
+    "text": "Das Display ist ohne Kratzer. Ladekabel dabei. iCloud wurde abgemeldet.",
+    "note": "The description denies scratches. The illustrated finding shows how a reviewer would investigate a possible conflict.",
+    "variant": "scratch",
+    "findings": [
+      {
+        "label": "Device",
+        "kind": "device",
+        "box": [
+          25,
+          8,
+          43,
+          82
+        ]
+      },
+      {
+        "label": "Possible scratch · illustrative",
+        "kind": "damage",
+        "box": [
+          39,
+          38,
+          17,
+          18
+        ]
+      }
+    ],
+    "image": "/examples/images/surface-review.svg",
+    "visual_source": "authored_illustration_not_model_output"
+  },
+  {
+    "id": "accessory-check",
+    "title": "What is actually included?",
+    "tag": "Accessory review",
+    "device": "Phone · 256 GB · Blue",
+    "text": "Zum Displayzustand gibt es keine Angabe. Ladekabel dabei. Apple-ID wurde entfernt.",
+    "note": "Visible accessories can support a seller claim. An accessory outside the frame remains unverified.",
+    "variant": "cable",
+    "findings": [
+      {
+        "label": "Device",
+        "kind": "device",
+        "box": [
+          25,
+          8,
+          43,
+          82
+        ]
+      },
+      {
+        "label": "Cable · illustrative",
+        "kind": "accessory",
+        "box": [
+          71,
+          39,
+          22,
+          38
+        ]
+      }
+    ],
+    "image": "/examples/images/accessory-check.svg",
+    "visual_source": "authored_illustration_not_model_output"
+  },
+  {
+    "id": "honest-uncertainty",
+    "title": "Leave uncertainty visible",
+    "tag": "Needs more evidence",
+    "device": "Phone · 128 GB · Silver",
+    "text": "Weitere Informationen auf Anfrage. Lieferumfang nicht beschrieben. Kontostatus nicht angegeben.",
+    "note": "An incomplete description and limited views do not establish that the device is undamaged or unlocked.",
+    "variant": "plain",
+    "findings": [
+      {
+        "label": "Device",
+        "kind": "device",
+        "box": [
+          25,
+          8,
+          43,
+          82
+        ]
+      }
+    ],
+    "image": "/examples/images/honest-uncertainty.svg",
+    "visual_source": "authored_illustration_not_model_output"
+  },
+  {
+    "id": "stated-damage",
+    "title": "A disclosed display defect",
+    "tag": "Stated damage",
+    "device": "Phone · 64 GB · Graphite",
+    "text": "Das Display ist gesprungen. Ohne Ladekabel. iCloud wurde abgemeldet.",
+    "note": "Keep the seller's statement and any visual finding as separate evidence sources. Severity still requires review.",
+    "variant": "crack",
+    "findings": [
+      {
+        "label": "Device",
+        "kind": "device",
+        "box": [
+          25,
+          8,
+          43,
+          82
+        ]
+      },
+      {
+        "label": "Crack · illustrative",
+        "kind": "damage",
+        "box": [
+          32,
+          26,
+          29,
+          39
+        ]
+      }
+    ],
+    "image": "/examples/images/stated-damage.svg",
+    "visual_source": "authored_illustration_not_model_output"
+  },
+  {
+    "id": "multiple-devices",
+    "title": "Two devices, one description",
+    "tag": "Identity review",
+    "device": "Two phones · mixed views",
+    "text": "Speicher und Farbe stehen im Titel. Kabel liegt bei. Zur Aktivierung keine Information.",
+    "note": "Evidence must belong to a specific device. A single listing-level label cannot safely describe two phones.",
+    "variant": "multiple",
+    "findings": [
+      {
+        "label": "Device A · illustrative",
+        "kind": "device",
+        "box": [
+          12,
+          16,
+          35,
+          69
+        ]
+      },
+      {
+        "label": "Device B · illustrative",
+        "kind": "accessory",
+        "box": [
+          53,
+          16,
+          35,
+          69
+        ]
+      }
+    ],
+    "image": "/examples/images/multiple-devices.svg",
+    "visual_source": "authored_illustration_not_model_output"
+  },
+  {
+    "id": "restricted-device",
+    "title": "Read the account status",
+    "tag": "Text warning",
+    "device": "Phone · 128 GB · Graphite",
+    "text": "Display ohne Beschädigungen. Das Kabel fehlt. iCloud-Sperre aktiv.",
+    "note": "A visually intact device can still have a disclosed account restriction. Physical inspection and text claims answer different questions.",
+    "variant": "plain",
+    "findings": [
+      {
+        "label": "Device",
+        "kind": "device",
+        "box": [
+          25,
+          8,
+          43,
+          82
+        ]
+      }
+    ],
+    "image": "/examples/images/restricted-device.svg",
+    "visual_source": "authored_illustration_not_model_output"
+  }
+]
