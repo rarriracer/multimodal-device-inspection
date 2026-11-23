@@ -78,9 +78,11 @@ try{
   if(!await evaluate('document.querySelector("[data-region-view=back]").getAttribute("aria-pressed")==="true"'))throw new Error('View review toggle failed');
   await evaluate('document.querySelector("[data-view=models]").click()');
   await waitFor('!document.querySelector("#models-view").hidden');
+  if(!await evaluate('document.documentElement.classList.contains("theme-dark")'))throw new Error('Model screenshot must use dark mode');
+  await capture('02-model-lab.png');
   await evaluate('document.querySelector("#themeToggle").click()');
   if(await evaluate('document.documentElement.classList.contains("theme-dark")'))throw new Error('Light theme toggle failed');
-  await capture('02-model-lab.png');
+  await evaluate('document.querySelector("#themeToggle").click()');
   await evaluate('document.querySelector("[data-view=review]").click(); document.querySelector("#case-select").value="restricted-device"; document.querySelector("#case-select").dispatchEvent(new Event("change"))');
   await waitFor('document.querySelectorAll(".result-row").length===3 && document.querySelector("#case-tag").textContent==="Kontosperre genannt"');
   const text=await evaluate('document.querySelector("#text-results").textContent');

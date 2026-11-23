@@ -86,7 +86,7 @@ The public UI reuses presentation rules from the original dashboard and its fron
 
 *The image scene and region boxes are explicitly labelled illustrations. Uploading a local photo runs the actual device-view model; these example boxes are not detector predictions.*
 
-![Model overview in the original dashboard's light theme](docs/screenshots/02-model-lab.png)
+![Model overview in the original dashboard's dark theme](docs/screenshots/02-model-lab.png)
 
 ## Models and evaluation
 
